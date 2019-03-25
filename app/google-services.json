@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1014121251506",
+    "firebase_url": "https://vrajati-6696f.firebaseio.com",
+    "project_id": "vrajati-6696f",
+    "storage_bucket": "vrajati-6696f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014121251506:android:5645e19a348f3c27",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.vrajati2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014121251506-qvi03789vnkda6qu3lnn9cngfrqhc30e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.vrajati2",
+            "certificate_hash": "ecf9a63028cf5ffb74695fd7085932976f2f3adc"
+          }
+        },
+        {
+          "client_id": "1014121251506-qt83fosbiamtvp34ktlj2jvf7ja1i4rk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2WlB1VIMfY-JhpM4v99Ap1xMj-5iKQGA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014121251506-qt83fosbiamtvp34ktlj2jvf7ja1i4rk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

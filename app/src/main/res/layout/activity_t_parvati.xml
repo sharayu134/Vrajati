@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".t_parvati"
+
+android:background="@drawable/pune_bk"
+android:backgroundTint="#80FFFFFF"
+android:backgroundTintMode="src_over"
+    >
+
+
+<ImageView
+    android:id="@+id/imageView6cop"
+    android:layout_width="wrap_content"
+    android:layout_height="256dp"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    app:srcCompat="@drawable/t_parvatihill"
+
+    />
+
+<TextView
+    android:id="@+id/textView14ttcop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+android:layout_above="@id/button7cop"
+    android:layout_below="@+id/imageView6cop"
+    android:text="Parvati is the one of the most scenic locations in Pune. It is situated at a height of 2100 feet above sea level. The temples on Parvati hill are the oldest heritage structures in Pune and reminiscent of the Peshwa dynasty. It offers an aerial view of the city and for the punekars, it is a respite from the noise and pollution of city life.
+Being the highest point in Pune and having conveniently located observation points, the beautiful panaromic view of  Pune city leaves visitors spel. It is said that at this spot the Peshwa ruler Balaji Baji Rao watched the British defeat at the Battle of Kirkee."
+
+android:importantForAutofill="yes"
+    android:textColor="@color/colorPrimaryDark"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/button7cop"
+    android:layout_width="201dp"
+    android:layout_height="84dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginBottom="17dp"
+    android:background="@drawable/map"
+    android:textColor="@color/AntiqueWhite"
+    android:textSize="22dp"
+    android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8cop"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView14ttcop"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9cop"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:onClick="displayToast"
+        />
+
+<TextView
+    android:id="@+id/textView19cop"
+    android:layout_width="200dp"
+    android:layout_height="22dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:background="@color/AntiqueWhite"
+    android:text="Get Direction"
+    android:textAlignment="center"
+    android:textColor="@color/Sienna"
+    android:textSize="18dp" />
+</RelativeLayout>

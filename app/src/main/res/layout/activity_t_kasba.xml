@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t_kasba"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6copk"
+        android:layout_width="wrap_content"
+        android:layout_height="218dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        app:srcCompat="@drawable/t_nageshwar" />
+
+    <TextView
+        android:id="@+id/textView14ttcopk"
+        android:layout_width="wrap_content"
+        android:layout_height="237dp"
+android:layout_above="@id/button7copk"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6copk"
+        android:text="Nageshwar Temple is one of the oldest temples of Pune, Maharashtra. It has been there since the times of Sant Dynaneshwar and Tukaram. It is a general belief that there was once a reservoir near the temple.It is said that the water of this reservoir could cure leprosy.
+The main shrine has the typical Yadava structure with a stone roof.Several renovations and additions have been made the temple over the years. The major one being in Peshwa period.The Sabhamandap is built in the Peshwa period by a moneylender Aba Shelukar.
+The temple is situated in the densely built residential area."
+        android:textColor="@color/colorPrimaryDark"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7copk"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8copk"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button7copk"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9copk"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@+id/button7copk"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19copk"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textSize="18dp" />
+</RelativeLayout>

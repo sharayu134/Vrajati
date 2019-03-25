@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".entertainment"
+    android:background="@color/Black"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/imageView210ss"
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/s_fs1" />
+
+
+        <ImageButton
+            android:id="@+id/imageView410ss"
+            android:layout_width="match_parent"
+            android:layout_height="257dp"
+            android:layout_alignStart="@+id/imageView210ss"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1040dp"
+            app:srcCompat="@drawable/s_tb" />
+
+        <TextView
+            android:id="@+id/textView21ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView210ss"
+            android:text="Fashion Street"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/imageButton6ss"
+            android:layout_width="wrap_content"
+            android:layout_height="236dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="266dp"
+            app:srcCompat="@drawable/s_amnoraz" />
+
+        <TextView
+            android:id="@+id/textView22ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton6ss"
+            android:layout_alignParentStart="true"
+            android:text="Amanora Town Centre"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/imageButton7ss"
+            android:layout_width="wrap_content"
+            android:layout_height="214dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="518dp"
+            app:srcCompat="@drawable/s_fc1" />
+
+        <TextView
+            android:id="@+id/textView24ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButton7ss"
+            android:text="Fergusson College Road"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/imageButton9ss"
+            android:layout_width="wrap_content"
+            android:layout_height="238dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="779dp"
+            app:srcCompat="@drawable/s_finix1" />
+
+        <TextView
+            android:id="@+id/textView23ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/imageButton9ss"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Tulsi Baug"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView25ss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageButton9ss"
+            android:layout_alignParentStart="true"
+            android:text="Phoenix Marketcity"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

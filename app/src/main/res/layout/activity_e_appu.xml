@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".e_appu"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6ea"
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        app:srcCompat="@drawable/e_appu2" />
+
+    <TextView
+        android:id="@+id/textView14ea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_above="@id/textView15ea"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6ea"
+android:text="The very name gets a smile going on any Punekars face as Appu Ghar is a dear reminiscence of an awesome childhood! Also known as Indira Gandhi Udyan, this lovely park is located at the foot of the Shir Durga Devi Tekadi and is one of the most stellar amusement parks in Pune!"
+        android:textColor="@color/colorPrimaryDark"
+        android:importantForAutofill="yes"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15ea"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView16ea"
+        android:background="@color/AntiqueWhite"
+        android:text="Opening Hours:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16ea"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView18ea"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Entry Fees:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17ea"
+        android:layout_width="200dp"
+        android:layout_height="84dp"
+        android:layout_above="@+id/button7ea"
+        android:layout_alignParentStart="true"
+        android:text="Saturday n Sunday:12pm to
+                                   9.30pm
+Other days:12pm to 8pm"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textView18ea"
+        android:layout_width="184dp"
+        android:layout_height="87dp"
+        android:layout_alignBottom="@+id/textView17ea"
+        android:layout_alignParentEnd="true"
+        android:text="300 per person for Adults
+ 250 per person for Children
+Visitors above 3.5 feet height are considered as Adults"
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7ea"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8ea"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button7ea"
+        android:layout_toEndOf="@+id/textView15ea"
+        android:text="More Information"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"/>
+
+    <Button
+        android:id="@+id/button9ea"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView15ea"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"/>
+
+    <TextView
+        android:id="@+id/textView19ea"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:textSize="18dp" />
+</RelativeLayout>

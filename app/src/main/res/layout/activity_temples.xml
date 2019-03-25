@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".temples"
+    android:background="@color/Black"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/imageView210tt"
+            android:layout_width="match_parent"
+            android:layout_height="205dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/t_iskcon" />
+
+        <TextView
+            android:id="@+id/textView1000tt"
+            android:layout_width="match_parent"
+
+            android:layout_alignBottom="@+id/imageView210tt"
+
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:layout_height="35dp"
+            android:textSize="22sp"
+            android:text="Iskon Temple"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageView41044tt"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_alignStart="@+id/imageView121044tt"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1515dp"
+            app:srcCompat="@drawable/t_pataleshwar" />
+
+        <TextView
+            android:id="@+id/textView121044tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Pataleshwar Temple"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageView31044tt"
+            android:layout_width="match_parent"
+            android:layout_height="197dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="215dp"
+            app:srcCompat="@drawable/t_dagdushet" />
+
+        <TextView
+            android:id="@+id/textView610tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView31044tt"
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Dagadusheth Halwai Temple"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageView51044tt"
+            android:layout_width="385dp"
+            android:layout_height="195dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="425dp"
+            app:srcCompat="@drawable/t_chaturshringi1" />
+
+        <TextView
+            android:id="@+id/textView710tt"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+
+
+            android:layout_alignBottom="@+id/imageView51044tt"
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="ChaturShringi Temple"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageView81044tt"
+            android:layout_width="match_parent"
+            android:layout_height="221dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="632dp"
+            app:srcCompat="@drawable/t_nageshwar" />
+
+
+        <TextView
+            android:id="@+id/textView81044"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/imageView81044tt"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Nageshwar Temple"
+
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+
+        <ImageButton
+            android:id="@+id/imageView111044tt"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView81044tt"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/t_omkareshwar" />
+
+        <TextView
+            android:id="@+id/textView13tt"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/imageView111044tt"
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Omkareshwar Temple"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageView121044tt"
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView111044tt"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/t_trishund" />
+
+        <TextView
+            android:id="@+id/textView1010tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView121044tt"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:text="Trishund temple"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageView141044tt"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView121044tt"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/t_parvatihill" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView111044tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView141044tt"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:text="parvati Hill temple"
+            android:textColor="@android:color/black"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

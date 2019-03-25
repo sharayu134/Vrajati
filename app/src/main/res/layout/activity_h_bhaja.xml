@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".h_bhaja"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6b"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/h_bhaja"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14b"
+        android:layout_width="wrap_content"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:text="Bhaja Caves or Bhaje caves is a group of 22 rock-cut caves dating back to the 2nd century BC located in Pune district, near Lonavala, Maharashtra. The caves are 400 feet above the village of Bhaja, on an important ancient trade route running from the Arabian Sea eastward into the Deccan Plateau."
+        android:layout_below="@+id/imageView6b"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15b"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView14b"
+        android:text="Opening Hours:"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/AntiqueWhite"/>
+
+    <TextView
+        android:id="@+id/textView16b"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/textView14b"
+        android:layout_toEndOf="@+id/textView15b"
+        android:text="Entry Fees:"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/AntiqueWhite"/>
+
+    <TextView
+        android:id="@+id/textView17b"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView15b"
+        android:text="                   Everyday
+                8am to 6pm "
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/textView18b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15b"
+        android:layout_toEndOf="@+id/textView15b"
+        android:text="   Indian:Rs.15
+   Foreigner:Rs.125 "
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7b"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8b"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button7b"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9b"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna" />
+
+    <TextView
+        android:id="@+id/textView19b"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:textSize="18dp" />
+</RelativeLayout>

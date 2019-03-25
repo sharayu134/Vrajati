@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s_tulsi"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6csstt"
+        android:layout_width="wrap_content"
+        android:layout_height="239dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/s_tb1" />
+
+    <TextView
+        android:id="@+id/textView14ttcsstt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6csstt"
+android:layout_above="@id/button7csstt"
+        android:importantForAutofill="yes"
+        android:layout_marginTop="-13dp"
+        android:text="This market is a home to traditional and modern cooking items, jewellery, household goods and cosmetics. Also, it can be accessed via three entrances - from Laxmi Road, Bajirao Road and the road connecting Shanipur to the Chhatrapati Shivaji Road. . From jewellery and traditional Maharashtrians wares, to sarees and pearl necklaces, you’ll get it all here.."
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7csstt"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8csstt"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button7csstt"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9csstt"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19csstt"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textSize="18dp" />
+
+</RelativeLayout>

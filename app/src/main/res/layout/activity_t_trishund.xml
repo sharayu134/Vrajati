@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t_trishund"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6coptr"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/tt_trishund"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14ttcoptr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/button7coptr"
+        android:layout_below="@+id/imageView6coptr"
+        android:text="Trishundya Mayureshwar Ganapati temple is a small but beautiful temple located in Somwar Peth near the Kamala Nehru Hospital. There is a stream called as Nagazari which is very close to it. In fact when the temple was constructed there was a direct approach to the banks of the Nagazari from this temple. The construction of this temple was started on 26th August 1754 C.E. by a person called as Bhimjigiri Gosavi from Dhampur near Indore and was completed in 1770 C.E. There are three inscriptions on the wall of the sanctum of the temple, two of them are in Devanagari script and Sanskrit language and the third one is in the Persian script and language. "
+        android:importantForAutofill="yes"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7coptr"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8coptr"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView14ttcoptr"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9coptr"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19coptr"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textSize="18dp" />
+</RelativeLayout>

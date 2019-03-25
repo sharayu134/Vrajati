@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s_pheonix"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6csspp"
+        android:layout_width="wrap_content"
+        android:layout_height="239dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/s_finix1" />
+
+    <TextView
+        android:id="@+id/textView14ttcsspp"
+        android:layout_width="wrap_content"
+        android:layout_height="232dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6csspp"
+android:layout_above="@id/button7csspp"
+        android:text="This is one of the most popular malls in Pune. Phoenix Market City Mall located at Viman Nagar is one of the best malls in the area. It not only a popular shopping destination but also a favoured eating joint as well as entertainment hub.
+The malls has various shops for Books Music Gifts and Toys, Electronics, Gadgets and White Goods, Cosmetics, Salon, Spas and Optics, Department Stores, Designer Wear, Foot Fashion, Bags, Luggage and Accessories, Home Accessories, Hypermarkets, Supermarket, Kid's Fashion , Toys, Men's Fashion, Sportswear, Watches ,Jewellery, Women's Fashion and Service.
+"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7csspp"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8csspp"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button7csspp"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9csspp"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19csspp"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textSize="18dp" />
+
+</RelativeLayout>

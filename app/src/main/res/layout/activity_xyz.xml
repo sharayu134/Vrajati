@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".xyz"
+    android:orientation="vertical"
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_marginTop="19dp"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo_official" />
+
+    <EditText
+        android:layout_marginTop="89dp"
+        android:id="@+id/name_id_profile"
+        android:layout_width="229dp"
+        android:layout_marginLeft="86dp"
+        android:layout_height="wrap_content"
+        android:hint="      Name"
+
+        android:drawableLeft="@drawable/name"
+
+        />
+
+    <EditText
+        android:id="@+id/mobileno_id_profile"
+        android:layout_width="229dp"
+        android:layout_marginLeft="86dp"
+        android:layout_height="wrap_content"
+        android:hint="    Contact No"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/contact"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_marginLeft="96dp"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="@color/colorPrimary"
+        android:text="back to log in "
+        android:textSize="22dp" />
+
+
+
+</LinearLayout>

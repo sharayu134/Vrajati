@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".h_Shaniwarwada"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/h_shaniwarwada"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+android:layout_above="@id/textView15"
+        android:layout_below="@+id/imageView6"
+        android:text="Shaniwar Wada in Pune was the seat of the Peshwas at the height of Maratha empire. It is a testimony to the Maratha glory and valor. Its architectural design shows influences of Mughal style and features of Maratha artistic styles. The 21-feet tall entrance of the palace is known as Delhi Darwaza. It had palaces to house the Peshwas and their families. However, the palaces were destroyed in a big fire in 1827. Now only the fort walls remain."
+        android:textColor="@color/colorPrimaryDark"
+        android:autoSizeMaxTextSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView17"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Opening Hours:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView15"
+        android:background="@color/AntiqueWhite"
+        android:text="Entry Fees:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:text="                   Everyday
+                8am to 6pm "
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:text="   Indian:Rs.15
+   Foreigner:Rs.125 "
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button7"
+        android:layout_toEndOf="@+id/textView15"
+        android:text="More Information"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+       />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView15"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+
+        />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Get Location"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textSize="18dp" />
+</RelativeLayout>

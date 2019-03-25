@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lenovo.vrajati2">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Vrajati"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Vrajati">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".welcome" />
+        <activity android:name=".ss" />
+        <activity android:name=".food" />
+        <activity android:name=".accomodation" />
+        <activity android:name=".entertainment" />
+        <activity android:name=".shopping" />
+        <activity android:name=".naturenwildlife" />
+        <activity android:name=".historic" />
+        <activity android:name=".parks" />
+        <activity android:name=".museum" />
+        <activity android:name=".temples" />
+        <activity android:name=".h_Shaniwarwada" />
+        <activity android:name=".h_shivnerii" />
+        <activity android:name=".h_lalmahal" />
+        <activity android:name=".h_chatri" />
+        <activity android:name=".h_vishram" />
+        <activity android:name=".h_bhaja" />
+        <activity android:name=".h_rajgad" />
+        <activity android:name=".h_sinhgad" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".mapshani"
+            android:label="@string/title_activity_mapshani" />
+        <activity android:name=".e_appu" />
+        <activity android:name=".e_imagica" />
+        <activity android:name=".t_iskcon" />
+        <activity android:name=".t_chaturshringi" />
+        <activity android:name=".t_dagdu" />
+        <activity android:name=".t_omkareshwar" />
+        <activity android:name=".t_parvati" />
+        <activity android:name=".t_kasba" />
+        <activity android:name=".s_fc" />
+        <activity android:name=".s_fs" />
+        <activity android:name=".s_tulsi" />
+        <activity android:name=".s_pheonix" />
+        <activity android:name=".s_amnora" />
+        <activity android:name=".t_trishund" />
+        <activity android:name=".t_pataleshwar" />
+        <activity android:name=".m_agakhan" />
+        <activity android:name=".m_darshan" />
+        <activity android:name=".m_rajadinkar" />
+        <activity android:name=".m_bladesofglory" />
+        <activity android:name=".m_phule" />
+        <activity android:name=".m_nationalwar" />
+        <activity android:name=".m_tribal" />
+        <activity android:name=".m_shivaji" />
+        <activity android:name=".n_rajiv" />
+        <activity android:name=".n_taljai" />
+        <activity android:name=".n_butterfly" />
+        <activity android:name=".n_salim" />
+        <activity android:name=".n_vetal" />
+        <activity android:name=".n_parvati" />
+        <activity android:name=".n_bhima" />
+        <activity android:name=".n_mayureshwar" />
+        <activity android:name=".login" />
+        <activity android:name=".signup" />
+        <activity
+            android:name=".Map_shiv"
+            android:label="@string/title_activity_map_shiv" />
+        <activity android:name=".xyz" />
+        <activity
+            android:name=".map_lal"
+            android:label="@string/title_activity_map_lal" />
+        <activity android:name=".fav_list" />
+        <activity
+            android:name=".map_bhaja"
+            android:label="@string/title_activity_map_bhaja" />
+        <activity
+            android:name=".map_sinh"
+            android:label="@string/title_activity_map_sinh" />
+        <activity
+            android:name=".map_raj"
+            android:label="@string/title_activity_map_raj" />
+        <activity
+            android:name=".map_mahad"
+            android:label="@string/title_activity_map_mahad" />
+        <activity
+            android:name=".map_vishram"
+            android:label="@string/title_activity_map_vishram" />
+        <activity
+            android:name=".map_zoo"
+            android:label="@string/title_activity_map_zoo" />
+        <activity
+            android:name=".map_tul"
+            android:label="@string/title_activity_map_tul" />
+        <activity
+            android:name=".map_but"
+            android:label="@string/title_activity_map_but" />
+        <activity
+            android:name=".map_salim"
+            android:label="@string/title_activity_map_salim" />
+        <activity
+            android:name=".map_vetal"
+            android:label="@string/title_activity_map_vetal" />
+        <activity
+            android:name=".map_parvati"
+            android:label="@string/title_activity_map_parvati" />
+        <activity
+            android:name=".map_bhima"
+            android:label="@string/title_activity_map_bhima" />
+        <activity
+            android:name=".map_mayur"
+            android:label="@string/title_activity_map_mayur" />
+        <activity
+            android:name=".map_aga"
+            android:label="@string/title_activity_map_aga" />
+        <activity
+            android:name=".map_darshan"
+            android:label="@string/title_activity_map_darshan" />
+        <activity
+            android:name=".map_raja_din_kel"
+            android:label="@string/title_activity_map_raja_din_kel" />
+        <activity
+            android:name=".map_blades"
+            android:label="@string/title_activity_map_blades" />
+        <activity
+            android:name=".map_phule"
+            android:label="@string/title_activity_map_phule" />
+        <activity
+            android:name=".map_nat_war"
+            android:label="@string/title_activity_map_nat_war" />
+        <activity
+            android:name=".map_tribal"
+            android:label="@string/title_activity_map_tribal" />
+        <activity
+            android:name=".map_shivaji"
+            android:label="@string/title_activity_map_shivaji" />
+        <activity
+            android:name=".map_iskon"
+            android:label="@string/title_activity_map_iskon" />
+        <activity
+            android:name=".map_dagadu"
+            android:label="@string/title_activity_map_dagadu" />
+        <activity
+            android:name=".map_chatur"
+            android:label="@string/title_activity_map_chatur" />
+        <activity
+            android:name=".map_nageshwar"
+            android:label="@string/title_activity_map_nageshwar" />
+        <activity
+            android:name=".map_pataleshwar"
+            android:label="@string/title_activity_map_pataleshwar" />
+        <activity
+            android:name=".map_om"
+            android:label="@string/title_activity_map_om" />
+        <activity
+            android:name=".map_trishund"
+            android:label="@string/title_activity_map_trishund" />
+        <activity
+            android:name=".map_t_par"
+            android:label="@string/title_activity_map_t_par" />
+        <activity
+            android:name=".map_appu"
+            android:label="@string/title_activity_map_appu" />
+        <activity
+            android:name=".map_imagica"
+            android:label="@string/title_activity_map_imagica" />
+        <activity
+            android:name=".map_fs"
+            android:label="@string/title_activity_map_fs" />
+        <activity
+            android:name=".map_amnora"
+            android:label="@string/title_activity_map_amnora" />
+        <activity
+            android:name=".map_fc"
+            android:label="@string/title_activity_map_fc" />
+        <activity
+            android:name=".map_ph"
+            android:label="@string/title_activity_map_ph" />
+        <activity
+            android:name=".map_pho"
+            android:label="@string/title_activity_map_pho" />
+        <activity
+            android:name=".map_tulashi"
+            android:label="@string/title_activity_map_tulashi" />
+    </application>
+
+</manifest>

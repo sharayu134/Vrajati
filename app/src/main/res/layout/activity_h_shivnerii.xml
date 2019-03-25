@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".h_shivnerii"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6s"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/h_shivneri"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6s"
+        android:layout_above="@id/textView15s"
+        android:text="Shivneri Fort is a 17th-century military fortification located near Junnar in Pune district in Maharashtra, India. It is the birthplace of Chhatrapati Shivaji Maharaj, the founder of Maratha Empire.
+: Strong walls and sheer rock cliffs on three sides ensured Shivneri was well protected.
+Address: Imam Raza Nagar, Junnar, Maharashtra 410502"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15s"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_above="@+id/textView17s"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Opening Hours:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16s"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView15s"
+        android:background="@color/AntiqueWhite"
+        android:text="Entry Fees:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17s"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7s"
+        android:layout_alignParentStart="true"
+        android:text="                   Everyday
+                  24hours"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textView18s"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15s"
+        android:layout_toEndOf="@+id/textView15s"
+        android:text="                No entry fees"
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7s"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="18dp"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/map"
+        android:text="Directions"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8s"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button7s"
+        android:layout_toEndOf="@+id/textView15s"
+        android:text="More Information"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"/>
+
+    <Button
+        android:id="@+id/button9s"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView15s"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+
+        />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Direction"
+        android:background="@color/AntiqueWhite"
+        android:textColor="@color/Sienna"
+        android:textAlignment="center"/>
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".t_omkareshwar"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6co"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/tt_omkar"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14ttco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+android:layout_above="@id/button7co"
+        android:layout_below="@+id/imageView6co"
+        android:text=" Omkareshwar is viewed as a perfect piece of art and architecture of the 17th century. The white dome of the temple is made of soft soap stone. It has Nagara styled Shikhars (spires) with engravings of Hindu deities like Ganesha, Dattaguru, Makardhwaj, Vyasa, and four Keerti Mukha.It boasts of splendid architecture, huge domes, and intricate carvings that charm and amaze devotees with its beauty. Spacious verrandah with artistic columns enhance the grandeur of the shrine. The columns are in the shapes of circles, polygons and squares. The premises house smaller temples of Goddess Durga, lord Vishnu, lord Shani, and lord Hanuman."
+
+
+        android:textColor="@color/colorPrimaryDark"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button7co"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8co"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView14ttco"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9co"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19co"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textSize="18dp" />
+</RelativeLayout>

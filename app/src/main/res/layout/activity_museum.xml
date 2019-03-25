@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".museum"
+    android:background="@color/Black"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/imageView210mm"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/m_agakhan" />
+
+        <TextView
+            android:id="@+id/textView1000mm"
+            android:layout_width="match_parent"
+
+            android:layout_alignBottom="@+id/imageView210mm"
+
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:layout_height="35dp"
+            android:textSize="22sp"
+            android:text="Agakhan Palace"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageView410mm"
+            android:layout_width="match_parent"
+            android:layout_height="207dp"
+            android:layout_alignStart="@+id/imageView210mm"
+
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1545dp"
+            app:srcCompat="@drawable/m_shvaji" />
+
+        <TextView
+            android:id="@+id/textView1210mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Shivaji Museum"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            />
+
+        <ImageButton
+            android:id="@+id/imageView310mm"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="215dp"
+            app:srcCompat="@drawable/m_darshan" />
+
+        <TextView
+            android:id="@+id/textView6mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView310mm"
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Darshan Museum"
+            android:textAlignment="center"
+            android:textColor="@color/Black"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageView510mm"
+            android:layout_width="385dp"
+            android:layout_height="209dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="425dp"
+            app:srcCompat="@drawable/m_rajadinkarkelkar" />
+
+        <TextView
+            android:id="@+id/textView7mm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+
+
+            android:layout_alignBottom="@+id/imageView510mm"
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Raja Dinkar Kelkar Museum"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/imageView810mm"
+            android:layout_width="match_parent"
+            android:layout_height="233dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="645dp"
+            app:srcCompat="@drawable/m_bladesofglory" />
+
+
+        <TextView
+            android:id="@+id/textView810mm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/imageView810mm"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Blades Of Glory"
+
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"/>
+
+        <ImageButton
+            android:id="@+id/imageView1110mm"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView810mm"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/m_mahatmaphule" />
+
+        <TextView
+            android:id="@+id/textViewmm"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignBottom="@+id/imageView1110mm"
+            android:layout_alignParentStart="true"
+            android:background="@color/SandyBrown"
+            android:fontFamily="@string/app_name"
+            android:text="Mahatma Phule Museum"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/Black"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageView1210mm"
+            android:layout_width="match_parent"
+            android:layout_height="209dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView1110mm"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/m_war" />
+
+        <TextView
+            android:id="@+id/textView10mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1210mm"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:text="National War Memorial Museum"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            />
+
+
+        <ImageButton
+            android:id="@+id/imageView1410mm"
+            android:layout_width="match_parent"
+            android:layout_height="208dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView1210mm"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/m_tribal" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView1110mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1410mm"
+            android:layout_centerHorizontal="true"
+            android:background="@color/SandyBrown"
+            android:text="Tribal Museum"
+            android:textColor="@android:color/black"
+            android:fontFamily="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

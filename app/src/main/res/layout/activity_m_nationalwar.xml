@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m_nationalwar"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6nn"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/m_war"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14nn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/textView15nn"
+        android:layout_below="@+id/imageView6nn"
+android:text="Fittingly located in Pune’s beautiful and green cantonment area, the museum has been established in memory of the Indian soldiers who lost their lives for the country in post independence wars. One of the most unique features of this museum, is the fact that it is the only war museum in South Asia that has been built entirely as a consequence of funds raised by the public. Encompassed on all sides by marble plaques rising to a height of eight feet, each plaque is engraved with the names of war martyrs."        android:textColor="@color/colorPrimaryDark"
+        android:autoSizeMaxTextSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15nn"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView17nn"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Opening Hours:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16nn"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView15nn"
+        android:background="@color/AntiqueWhite"
+        android:text="Entry Fees:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17nn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7nn"
+        android:layout_alignParentStart="true"
+        android:text="                   Everyday
+                9am to 5.30pm "
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textView18nn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15nn"
+        android:layout_toEndOf="@+id/textView15nn"
+        android:text="  No entry fees "
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7nn"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8nn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button7nn"
+        android:layout_toEndOf="@+id/textView15nn"
+        android:text="More Information"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"/>
+
+    <Button
+        android:id="@+id/button9nn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView15nn"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19nn"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:textSize="18dp" />
+</RelativeLayout>

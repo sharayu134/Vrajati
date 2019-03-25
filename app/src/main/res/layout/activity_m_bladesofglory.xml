@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m_bladesofglory"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6bb"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/m_bladesofglory"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView6bb"
+        android:autoSizeMaxTextSize="23dp"
+android:text="The entrance of Blades of Glory welcomes you with a summary of how a cricket bat has evolved over the last three centuries. This justifies the name of the gallery. Spread over around 4,000 sq ft, Blades of Glory displays rarest of rare of cricket memorabilia. The artifacts include personally autographed cricket-related items by the who’s who of the gentleman’s game."
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15bb"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView17bb"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Opening Hours:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16bb"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView18bb"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Entry Fees:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17bb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView16bb"
+        android:text="                   Everyday
+                10.30am to 7pm "
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textView18bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7bb"
+        android:layout_toEndOf="@+id/textView15bb"
+        android:text="                 Rs.100
+"
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7bb"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8bb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button7bb"
+        android:layout_toEndOf="@+id/textView15bb"
+        android:text="More Information"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"/>
+
+    <Button
+        android:id="@+id/button9bb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView15bb"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        />
+
+    <TextView
+        android:id="@+id/textView19bb"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:textSize="18dp" />
+</RelativeLayout>

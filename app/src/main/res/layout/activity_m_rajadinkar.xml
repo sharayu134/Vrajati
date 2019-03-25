@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".m_rajadinkar"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6rr"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/m_rajadinkarkelkar"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14rr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_above="@id/textView15rr"
+        android:layout_below="@+id/imageView6rr"
+android:text="It contains the collection of Dr. Dinkar G. Kelkar (1896–1990), dedicated to the memory of his only son, Raja.The three-storey building houses various sculptures dating back to the 14th century.[citation needed] There are also ornaments made of ivory, silver and gold, musical instruments (a particularly fine collection),war weapons and vessels."        android:textColor="@color/colorPrimaryDark"
+        android:autoSizeMaxTextSize="23dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15rr"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_above="@+id/textView17rr"
+        android:layout_alignParentStart="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Opening Hours:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView16rr"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView14rr"
+        android:background="@color/AntiqueWhite"
+        android:text="Entry Fees:"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17rr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button7rr"
+        android:layout_alignParentStart="true"
+        android:text="                   Everyday
+                8am to 6pm
+"
+        android:textColor="@color/MidnightBlue" />
+
+    <TextView
+        android:id="@+id/textView18rr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView15rr"
+        android:layout_marginTop="0dp"
+        android:text="                    5:children
+                   20 : adults
+                200 :foreign tourists "
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7rr"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8rr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button7rr"
+        android:layout_toEndOf="@+id/textView15rr"
+        android:text="More Information"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"/>
+
+    <Button
+        android:id="@+id/button9rr"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView15rr"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19rr"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:textSize="18dp" />
+</RelativeLayout>

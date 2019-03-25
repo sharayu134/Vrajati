@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".h_chatri"
+
+    android:background="@drawable/pune_bk"
+    android:backgroundTint="#80FFFFFF"
+    android:backgroundTintMode="src_over"
+    >
+
+
+    <ImageView
+        android:id="@+id/imageView6c"
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/h_mahadji"
+
+        />
+
+    <TextView
+        android:id="@+id/textView14c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Shinde Chhatri is an 18th century memorial located in the Wanawadi area in Pune. It is dedicated to the Maratha leader Mahadji Shinde who was the commander-in-chief of the Peshwas from 1760 to 1780. It is one of the oldest buildings in Pune and a popular tourist attraction. The intricate carvings on the walls and the magnificent iron gate are a delight and take you back to the bygone era. Its building is a spectacular amalgamation of Anglo-Rajasthani architecture."
+        android:layout_below="@+id/imageView6c"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15c"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView14c"
+        android:text="Opening Hours:"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/AntiqueWhite"/>
+
+    <TextView
+        android:id="@+id/textView16c"
+        android:layout_width="200dp"
+        android:layout_height="18dp"
+        android:layout_below="@+id/textView14c"
+        android:layout_toEndOf="@+id/textView15c"
+        android:text="Entry Fees:"
+        android:textColor="@color/Sienna"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:background="@color/AntiqueWhite"/>
+
+    <TextView
+        android:id="@+id/textView17c"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView15c"
+        android:text="                   Everyday
+                8am to 6pm "
+        android:textColor="@color/MidnightBlue"/>
+
+    <TextView
+        android:id="@+id/textView18c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15c"
+        android:layout_toEndOf="@+id/textView15c"
+        android:text="   Indian:Rs.15
+   Foreigner:Rs.125 "
+        android:textColor="@color/MidnightBlue" />
+
+    <Button
+        android:id="@+id/button7c"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/map"
+        android:textColor="@color/AntiqueWhite"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8c"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button7c"
+        android:background="@color/AntiqueWhite"
+        android:text="More Information"
+        android:textColor="@color/Sienna" />
+
+    <Button
+        android:id="@+id/button9c"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/AntiqueWhite"
+        android:text="Add to favorites"
+        android:textColor="@color/Sienna"
+        android:onClick="displayToast"
+        />
+
+    <TextView
+        android:id="@+id/textView19c"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Get Direction"
+        android:textAlignment="center"
+        android:textColor="@color/Sienna"
+        android:background="@color/AntiqueWhite"
+        android:textSize="18dp" />
+</RelativeLayout>
